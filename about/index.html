@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/about/styles.css" />
+    <title>Find Books</title>
+  </head>
+  <body>
+    <header>
+      <div class="botao-voltar">
+        <a href="/home/index.html" class="botao-voltar">Voltar</a>
+      </div>
+      <p>Find Books</p>
+    </header>
+
+    <main>
+      <div class="texto-leitura">
+        <p>
+          “Sempre imaginei que o paraíso fosse uma espécie de biblioteca”. —
+          Jorge Luis Borges
+        </p>
+      </div>
+      <div class="input">
+        <input class= "barra-pesquisa" id= "barra-pesquisa" type="text" placeholder="Digite o nome de um livro:" />
+        <div class="botao-pesquisa">
+          <button onClick="pesquisar()">Pesquisar</button>
+        </div>
+      </div>
+
+      <section class="pesquisa"></section>
+      <section class="resultados-pesquisa" id="resultados-pesquisa">
+
+      </section>
+    </main>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
